@@ -1,0 +1,25 @@
+.logo{
+    width: 85px;
+}
+.nav{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+.navMenu{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 22px;
+}
+.menu:hover{
+    background-color: white;
+    transition: 0.2s;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
